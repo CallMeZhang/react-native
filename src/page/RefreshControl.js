@@ -36,7 +36,6 @@ class Row extends React.Component {
 	render() {
 		return (
 			<TouchableWithoutFeedback onPress={this._onClick} >
-				<Text>12</Text>
 				<View style={styles.row}>
 					<Text style={styles.text}>
 						{this.props.data.text + ' (' + this.props.data.clicks + ' clicks)'}
